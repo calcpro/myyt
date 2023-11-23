@@ -18,3 +18,5 @@ mpv "https://$( curl -s "${urlstring}" \
 	| fzf --with-nth='1..-2' +m \
 	| awk '{print $NF}' \
 )"
+
+
